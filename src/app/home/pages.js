@@ -199,20 +199,59 @@ const Home = () => {
         <Container>
           <Grid container spacing={3}>
             <Grid item lg={5} sm={12} xs={12} md={12}>
-             
-                <Box className={styles.third_left_bag3}>
-                <h2>Everyone Should Have Access <span>To Financial Services</span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                </Box>
-           
+              <Box className={styles.third_left_bag3}>
+                <h2>
+                  Everyone Should Have Access <span>To Financial Services</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et
+                </p>
+              </Box>
             </Grid>
             <Grid item lg={7} sm={12} xs={12} md={12}>
-              <Box className={styles.heading_sec}>
-                <p>Our commitment to excellence is reflected in our customer service. We are always here to help you with any questions or concerns you may have. </p>
-                <button>Get Started</button>
+              <Box className={styles.third_right_bag3}>
+                <p>
+                  Our commitment to excellence is reflected in our customer
+                  service. We are always here to help you with any questions or
+                  concerns you may have.{" "}
+                </p>
+                <Box sx={{ textAlign: "right", marginTop: "30px" }}>
+                  <button>Get Started</button>
+                </Box>
               </Box>
             </Grid>
           </Grid>
+          <Box className={styles.thrd_bag3_niche}>
+            <Grid container spacing={3}>
+              <Grid item lg={5} sm={12} xs={12} md={12}>
+                <Box className={styles.box1_bag4}>
+                  <div className={styles.box1_content}>
+                  <Box className={styles.svg_itm}>
+                        <AddToPhotosIcon />
+                      </Box>
+                    <h3>Anytime Transaction</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut elit tellus, luctus nec ullamcorper mattis
+                    </p>
+                  </div>
+                  <div className={styles.box1_img}>
+                    <img
+                      src="https://advanture.icu/bden/wp-content/uploads/sites/18/2023/04/App-Block01.png"
+                      alt=""
+                    />
+                  </div>
+                </Box>
+              </Grid>
+              <Grid item lg={4} sm={12} xs={12} md={12}>
+                <h1>Hello World</h1>
+              </Grid>
+              <Grid item lg={3} sm={12} xs={12} md={12}>
+                <h1>Hello World</h1>
+              </Grid>
+            </Grid>
+          </Box>
         </Container>
       </Box>
     </>
