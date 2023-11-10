@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar/Navbar";
+import { CssBaseline, Toolbar } from "@mui/material";
 import React from "react";
 
 const CustomLayout = ({ children }) => {
@@ -6,6 +7,7 @@ const CustomLayout = ({ children }) => {
     <>
       <CssBaseline />
       <Toolbar />
+
       <Navbar />
       {children}
     </>
