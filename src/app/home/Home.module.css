@@ -1,4 +1,4 @@
-.home_wrp{padding: 90px 0 ;}
+/* .home_wrp{padding: 90px 0 ;} */
 .home_wrp .MuiGrid-root {align-items: center !important;}
 /* .home_wrp .MuiGrid-item{align-items: center;}
 .home_wrp .MuiGrid-container
@@ -290,6 +290,8 @@
     border-radius: 60px 60px 60px 60px;
     padding: 20px 50px 20px 50px;
 }
+
+
 .home_wrp_third .box1_bag4{
     padding: 35px 35px 35px 35px;
     background-color: var(--e-global-color-53e4f1d);
@@ -302,3 +304,66 @@
     width: 500px;
     filter: brightness( 100% ) contrast( 114% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
 }
+
+
+.home_wrp_third .box2_bag5{
+    padding: 35px 35px 35px 35px;
+    background-color: var(--e-global-color-53e4f1d);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.home_wrp_third .box2_bag5 .box2_content{text-align: center;}
+.home_wrp_third .box2_bag5 .box2_content h3{
+    margin-top: 3rem;
+    margin-bottom: 0.4rem;
+}
+.home_wrp_third .box2_bag5 .box2_content h3 i{
+    background-image: linear-gradient(215deg, #779AFE 28%, #C8ACF9 71%);
+    background-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "Times New Roman";
+}
+.home_wrp_third .box2_bag5 .box2_content h3 .sp{
+    color: white;
+    background: transparent !important;
+    -webkit-text-fill-color: #fff;
+}
+
+
+
+
+.home_wrp_third .box3_bag6{
+    padding: 35px 35px 35px 35px;
+    background-color: var(--e-global-color-53e4f1d);
+    border-radius: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    gap: 40px;
+}
+.home_wrp_third .box3_bag6 .box3_content{text-align: center;}
+.home_wrp_third .box3_bag6 .box3_content h3{
+    /* margin-top: 3rem; */
+    margin-bottom: 0.4rem;
+}
+.home_wrp_third .box3_bag6 .box3_content h3 i{
+    background-image: linear-gradient(215deg, #779AFE 28%, #C8ACF9 71%);
+    background-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "Times New Roman";
+}
+.home_wrp_third .box3_bag6 .box3_content h3 .sp{
+    color: white;
+    background: transparent !important;
+    -webkit-text-fill-color: #fff;
+}
+.home_wrp_third .box3_bag6 .box1_img img{
+    width: 500px;
+    filter: brightness( 100% ) contrast( 114% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+}
+

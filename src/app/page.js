@@ -1,7 +1,7 @@
 import React from 'react'
-import Home from './home/pages'
 import Navbar from '@/components/Navbar/Navbar'
 import { CssBaseline, Toolbar } from '@mui/material'
+import Home from './home/page'
 
 const page = () => {
   return (

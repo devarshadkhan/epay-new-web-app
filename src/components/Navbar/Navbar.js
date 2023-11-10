@@ -96,7 +96,7 @@ function Navbar(props) {
               <Grid item lg={9} sx={{ display: { xs: "none", sm: "block" }}} >
                 <Box className={styles.list_wrp_ul} component={"ul"}>
                   <Box className={styles.list_wrp_li} component={"li"}>
-                    <Link href={""}  className={router === "/" ? styles.active : ""} >Home</Link>
+                    <Link href={"/"}  className={router === "/" ? styles.active : ""} >Home</Link>
                   </Box>
                   <Box className={styles.list_wrp_li} component={"li"}>
                     <Link  href={""}>Services</Link>
@@ -108,7 +108,7 @@ function Navbar(props) {
                     <Link  href={""}>Contact us</Link>
                   </Box>
                   <Box className="list_wrp_li" component={"li"}>
-                    <Link href={""} className={styles.loginBtn}>Login</Link>
+                    <Link href={"/auth/login"} className={styles.loginBtn}>Login</Link>
                   </Box>
                   <Box className="list_wrp_li" component={"li"}>
                     <Link href={""} className={styles.signupBtn} >Sign up</Link>

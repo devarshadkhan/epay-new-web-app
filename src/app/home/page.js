@@ -227,9 +227,9 @@ const Home = () => {
               <Grid item lg={5} sm={12} xs={12} md={12}>
                 <Box className={styles.box1_bag4}>
                   <div className={styles.box1_content}>
-                  <Box className={styles.svg_itm}>
-                        <AddToPhotosIcon />
-                      </Box>
+                    <Box className={styles.svg_itm}>
+                      <AddToPhotosIcon />
+                    </Box>
                     <h3>Anytime Transaction</h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -245,10 +245,73 @@ const Home = () => {
                 </Box>
               </Grid>
               <Grid item lg={4} sm={12} xs={12} md={12}>
-                <h1>Hello World</h1>
+                <Box className={styles.box2_bag5}>
+                  <div className={styles.box2_content}>
+                    <img
+                      src="https://advanture.icu/bden/wp-content/uploads/sites/18/2023/04/integration.png"
+                      alt=""
+                    />
+                    <h3>
+                      <i>280+</i>{" "}
+                      <span className={styles.sp} style={{ color: "#fff" }}>
+                        Integration
+                      </span>
+                    </h3>
+                    <p>Available API Connection</p>
+                  </div>
+                </Box>
               </Grid>
               <Grid item lg={3} sm={12} xs={12} md={12}>
-                <h1>Hello World</h1>
+                <Box className={styles.box3_bag6}>
+                  <div className={styles.box3_content}>
+                    <h3>
+                    Live States
+                    </h3>
+                  </div>
+                  <div className={styles.box1_img}>
+                    {" "}
+                    <img
+                      src="https://advanture.icu/bden/wp-content/uploads/sites/18/2023/04/App-Block03.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className={styles.box1_img}>
+                    {" "}
+                    <img
+                      src="https://advanture.icu/bden/wp-content/uploads/sites/18/2023/04/App-Block02.png"
+                      alt=""
+                    />
+                  </div>
+                </Box>
+              </Grid>
+            </Grid>
+          </Box>
+
+
+          <Box className={styles.thrd_bag3_niche}>
+            <Grid container spacing={3}>
+              <Grid item lg={7} sm={12} xs={12} md={12}>
+                <Box className={styles.box1_bag4}>
+                  <div className={styles.box1_content}>
+                    <Box className={styles.svg_itm}>
+                      <AddToPhotosIcon />
+                    </Box>
+                    <h3>Anytime Transaction</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut elit tellus, luctus nec ullamcorper mattis
+                    </p>
+                  </div>
+                  <div className={styles.box1_img}>
+                    <img
+                      src="https://advanture.icu/bden/wp-content/uploads/sites/18/2023/04/App-Block01.png"
+                      alt=""
+                    />
+                  </div>
+                </Box>
+              </Grid>
+              <Grid item lg={5} sm={12} xs={12} md={12}>
+                <img src="https://advanture.icu/bden/wp-content/uploads/sites/18/2023/04/card3.png" alt="" />
               </Grid>
             </Grid>
           </Box>
